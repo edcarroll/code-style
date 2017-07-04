@@ -1,0 +1,21 @@
+{
+  "name": "@edcarroll/code-style",
+  "version": "1.0.0",
+  "description": "Linter rules according to preferred coding style",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edcarroll/code-style.git"
+  },
+  "author": "Edward Carroll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edcarroll/code-style/issues"
+  },
+  "homepage": "https://github.com/edcarroll/code-style#readme",
+  "dependencies": {
+    "codelyzer": "^3.1.2",
+    "tslint": "^5.4.3",
+    "tslint-eslint-rules": "^4.1.1",
+    "vrsource-tslint-rules": "^5.1.0"
+  }
+}

@@ -1,10 +1,12 @@
-{
-  "rulesDirectory": [
-    "node_modules/codelyzer",
-    "node_modules/vrsource-tslint-rules/rules",
-    "node_modules/tslint-eslint-rules/dist/rules"
+const path = require("path");
+
+module.exports = {
+  rulesDirectory: [
+    path.join(path.dirname(require.resolve('codelyzer')), './'),
+    path.join(path.dirname(require.resolve('vrsource-tslint-rules')), 'rules'),
+    path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules')
   ],
-  "rules": {
+  rules: {
     "align": [
       true,
       "arguments",
@@ -238,12 +240,7 @@
     ],
 
     "directive-selector": false,
-    "component-selector": [
-      true,
-      "element",
-      ["sui", "demo", "example"],
-      "kebab-case"
-    ],
+    "component-selector": false,
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
     "use-host-property-decorator": false,
@@ -257,4 +254,4 @@
     "templates-use-public": true,
     "invoke-injectable": true
   }
-}
+};

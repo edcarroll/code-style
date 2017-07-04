@@ -1,6 +1,6 @@
 {
   "name": "@edcarroll/code-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Linter rules according to preferred coding style",
   "repository": {
     "type": "git",

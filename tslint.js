@@ -88,7 +88,6 @@ module.exports = {
     "new-parens": true,
     "no-angle-bracket-type-assertion": true,
     "no-arg": true,
-    "no-bitwise": true,
     "no-boolean-literal-compare": true,
     "no-console": [
       true,
@@ -237,21 +236,6 @@ module.exports = {
       "check-operator",
       "check-module",
       "check-separator"
-    ],
-
-    "directive-selector": false,
-    "component-selector": false,
-    "use-input-property-decorator": true,
-    "use-output-property-decorator": true,
-    "use-host-property-decorator": false,
-    "no-input-rename": false,
-    "no-output-rename": false,
-    "use-life-cycle-interface": true,
-    "use-pipe-transform-interface": true,
-    "component-class-suffix": false,
-    "directive-class-suffix": false,
-    "no-access-missing-member": false,
-    "templates-use-public": true,
-    "invoke-injectable": true
+    ]
   }
 };

@@ -19,8 +19,6 @@ In your `tslint.json` config file, add the following:
 
 ### tslint + Angular
 
-### tslint
-
 In your `tslint.json` config file, add the following:
 
 ```json

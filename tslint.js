@@ -133,7 +133,6 @@ module.exports = {
     "no-unused-variable": false,
     "no-use-before-declare": false,
     "no-var-keyword": true,
-    "no-var-requires": true,
     "number-literal-format": true,
     "object-literal-sort-keys": false,
     "one-line": [

@@ -6,6 +6,8 @@ module.exports = {
     path.join(path.dirname(require.resolve('codelyzer')), './')
   ],
   rules: {
+    "no-var-requires": true,
+
     "directive-selector": false,
     "component-selector": false,
     "use-input-property-decorator": true,
